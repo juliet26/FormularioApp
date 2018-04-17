@@ -4,8 +4,8 @@
              xmlns:local="clr-namespace:FormularioApp"
              x:Class="FormularioApp.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout>
+        
+    </StackLayout>
 
 </ContentPage>
