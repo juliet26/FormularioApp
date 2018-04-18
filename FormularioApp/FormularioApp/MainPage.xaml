@@ -5,7 +5,31 @@
              x:Class="FormularioApp.MainPage">
 
     <StackLayout>
-        
+        <TableView>
+        <BoxView BackgroundColor="Aqua"></BoxView>
+        <Image 
+            Source="github.png">
+        </Image>
+        <TableView>
+            <TableSection>
+                <EntryCell x:Name="entTítulo">
+                    <TextCell Text="Nombre de usuario">
+                    </TextCell>
+                </EntryCell>
+                <EntryCell x:Name="entUsuario">
+                    <TextCell Text="Usuario">
+                    </TextCell>
+                </EntryCell>
+                    <EntryCell x:Name="entEdad"
+                               Label="Edad">
+                        <TextCell Text="Edad">
+                        </TextCell>
+                        <TextCell Text="Ingrese la edad">
+                        </TextCell>
+                    </EntryCell>
+                </TableSection>
+        </TableView>
+        </TableView>
     </StackLayout>
 
 </ContentPage>
